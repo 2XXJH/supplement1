@@ -11,6 +11,14 @@ def add(num1, num2):
     return num1 + num2
 
 def count(string):
+    ''' returns the length of the string passed.
+
+    Args:
+        string: the string the count or returns the length of.
+
+    Returns:
+        The length of the string. 
+    '''
     return len(string)
 
 def test_should_return_four_for_two_and_two():
